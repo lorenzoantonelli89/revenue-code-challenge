@@ -34,7 +34,9 @@
                     {{$post->content}}
                 </td>
                 <td>
-                    {{$post->url}}
+                    <a href="{{$post->url}}">
+                        {{$post->url}}
+                    </a>
                 </td>
             </tr>
         </table>
